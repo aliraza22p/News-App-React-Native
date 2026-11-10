@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useContext} from 'react';
-import { View, StyleSheet, Text, FlatList, ActivityIndicator, ScrollView, Image, Statusbar } from 'react-native';
+import { View, StyleSheet, Text, FlatList, ActivityIndicator, ScrollView, Image, StatusBar } from 'react-native';
 import Card from '../../components/Card';
 import getCountryNews from '../../apis/countryNews';
 import themeContext from '../../config/themeContext';
